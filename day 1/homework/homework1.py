@@ -1,0 +1,19 @@
+name = "giorgi"
+print(name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
