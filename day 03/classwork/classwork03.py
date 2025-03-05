@@ -1,5 +1,5 @@
-first_number =str(input("first number"))
-second_number =str(input("second number"))
+first_number =int(input("first number: "))
+second_number =int(input("second number: "))
 
 if first_number > second_number:
     print("First number is bigger than the second number.")
