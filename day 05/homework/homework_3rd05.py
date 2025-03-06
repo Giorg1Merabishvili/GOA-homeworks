@@ -1,11 +1,8 @@
-numbers = []
-for i in range (5): 
-    num1 = float(input(f"Enter {i+1} number: ")) #მომხმარებელს ვუთხარი რომ შემოეტანა 5 რიცხვი.
-    
-    numbers.append(num1) #ეს პროგრამა ინახავს რიცხვებს სხვა რიცხვებთან ერთად.
+num1 = int(input("Please enter first number: "))
+num2 = int(input("Please enter second number: "))
+num3 = int(input("Please enter third number: "))
+num4 = int(input("Please enter fourth number: "))
+num5 = int(input("Please enter fifth number: "))
 
-    print(numbers) #ტერმინალში გამოვიტანე ყველა დაწერილი რიცხვი
-
-    avg = sum(numbers) / len(numbers)
-    print(f"The arithmetic mean of the entered numbers:  {avg}") #და საბოლოოდ პროგრამას გამოვათვლევინე საშუალო არითმეტიკული.
+print((num1 + num2 + num3 + num4 + num5) / 5)
     
