@@ -1,0 +1,1 @@
+print(True and False or True or True and False) # ჩემი ვარაუდით გამოიტანს True 
