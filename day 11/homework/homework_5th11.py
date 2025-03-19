@@ -1,2 +1,6 @@
-nums = range(10)
-print(nums[0] + nums[2] + nums[4] + nums[6] + nums[8])
+sum = 0
+
+for nums in range(0, 10, 2):
+    sum = sum + nums
+print(sum)
+   
